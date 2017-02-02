@@ -1,1 +1,22 @@
-<h1>hello world!</h1>
+<header class="row">
+  <div class="large-12 columns">
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li class="menu-text">Site Title</li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a routerLink="/home" routerLinkActive="active">Home</a></li>
+          <li><a routerLink="/work" routerLinkActive="active">Work</a></li>
+          <li><a routerLink="/about" routerLinkActive="active">About</a></li>
+          <li><a routerLink="/resume" routerLinkActive="active">Resumé</a></li>
+          <li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+
+<router-outlet></router-outlet>
