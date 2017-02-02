@@ -2,16 +2,114 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>Antonio Rodriguez | software engineer and digital marketing professional</title>
-    <base href="/">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta charset="utf-8">
+  <title>Antonio Rodriguez | software engineer and digital marketing professional</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 
 <body>
-    <app-root>Loading...</app-root>
-</body>
+  <app-root>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
 
+      *,
+      *:after,
+      *:before {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+      }
+
+      .loader-container {
+        background-color: black;
+        height: 100%;
+        position: relative;
+      }
+
+      .loader-container *,
+      .loader-container *:after,
+      .loader-container *:before {
+        box-sizing: border-box;
+      }
+
+      .loader {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .loader .spinnerBlock {
+        animation: rotate 100ms linear 600ms infinite;
+        transform-origin: top;
+        display: block;
+        height: 50px;
+        width: 50px;
+      }
+
+      .loader span {
+        display: block;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+
+      .loader span:nth-child(1) {
+        border-color: #eee;
+      }
+
+      .loader span:nth-child(2) {
+        left: -18px;
+        top: 45px;
+      }
+
+      .loader span:nth-child(3) {
+        left: -48px;
+        top: 6px;
+      }
+
+      .loader span:nth-child(4) {
+        width: 110px;
+        height: 110px;
+        left: -50px;
+        top: -12px;
+      }
+
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg);
+          transform-origin: top;
+        }
+        to {
+          transform: rotate(360deg);
+          transform-origin: center;
+        }
+      }
+
+    </style>
+    <div class="loader-container">
+      <div class="loader">
+        <div class="spinnerBlock">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    </div>
+  </app-root>
+</body>
 </html>
