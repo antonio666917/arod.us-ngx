@@ -41,3 +41,13 @@ section {
     }
   }
 }
+
+.typed-cursor {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  to {
+    opacity: .0;
+  }
+}
