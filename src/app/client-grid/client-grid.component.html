@@ -1,0 +1,5 @@
+<div class="brands-grid row align-middle">
+  <div *ngFor="let client of clients" class="brand-item small-2 columns {{client.name}} align-self-middle">
+    <img src="../../assets/img/brands/{{client.logo_filename}}" alt="Logo of {{client.name}}">
+  </div>
+</div>
