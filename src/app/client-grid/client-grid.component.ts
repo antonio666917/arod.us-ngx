@@ -16,7 +16,7 @@ export class ClientGridComponent implements OnInit {
 
   getClients(): void {
     this.dataService.getClients()
-      .then(clients => this.clients = clients.reverse());
+      .then(clients => this.clients = clients);
   }
 
   ngOnInit(): void {
