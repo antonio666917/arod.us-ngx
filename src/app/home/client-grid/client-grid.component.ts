@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Client } from '../client';
-import { DataService } from '../data.service';
+import { Client } from '../../client';
+import { DataService } from '../../data.service';
 
 @Component({
   moduleId: module.id,
-  selector: 'app-client-grid',
+  selector: 'app-home-client-grid',
   templateUrl: './client-grid.component.html',
   styleUrls: ['./client-grid.component.scss']
 })

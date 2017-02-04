@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Project } from '../project';
-import { DataService } from '../data.service';
+import { Project } from '../../project';
+import { DataService } from '../../data.service';
 
 @Component({
   moduleId: module.id,
-  selector: 'app-project-grid',
+  selector: 'app-home-project-grid',
   templateUrl: './project-grid.component.html',
   styleUrls: ['./project-grid.component.scss']
 })
