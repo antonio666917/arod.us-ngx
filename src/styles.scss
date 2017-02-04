@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html, body {
+  font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+a {
+  color: black;
+  &:hover {
+    background: black;
+    color: white;
+  }
+}
+
+section {
+  clear: both;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.section-dark {
+  background: black;
+  color: white;
+  a {
+    color: white;
+    &:hover {
+      background: white;
+      color: black;
+    }
+  }
+}
