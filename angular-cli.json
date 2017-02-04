@@ -18,7 +18,7 @@
       "tsconfig": "tsconfig.json",
       "prefix": "app",
       "styles": [
-        "../node_modules/foundation-sites/dist/css/foundation.css",
+        "../node_modules/foundation-sites/dist/css/foundation-flex.css",
         "styles.scss"
       ],
       "scripts": [
