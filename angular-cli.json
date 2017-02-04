@@ -18,6 +18,7 @@
       "tsconfig": "tsconfig.json",
       "prefix": "app",
       "styles": [
+        "assets/css/font-awesome.css",
         "../node_modules/foundation-sites/dist/css/foundation-flex.css",
         "styles.scss"
       ],
