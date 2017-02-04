@@ -1,0 +1,9 @@
+<div class="work-preview-grid row">
+  <div *ngFor="let project of projects" class="work-item small-6  medium-4 large-2 columns">
+    <a [href]="project.live_url" target="_blank" rel="noopener">
+      <h4>{{project.name}}</h4>
+      <h5>{{project.type}} for {{project.client}}</h5>
+      <img src="../../assets/img/work/{{project.screenshot_filename}}" alt="Screenshot of {{project.name}}">
+    </a>
+  </div>
+</div>
