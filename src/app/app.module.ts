@@ -16,6 +16,7 @@ import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProjectGridComponent as HomeProjectGridComponent } from './home/project-grid/project-grid.component';
 import { ClientGridComponent as HomeClientGridComponent } from './home/client-grid/client-grid.component';
+import { SocialMediaLinksComponent } from './social-media-links/social-media-links.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ClientGridComponent as HomeClientGridComponent } from './home/client-gr
     ContactComponent,
     WorkComponent,
     HomeProjectGridComponent,
-    HomeClientGridComponent
+    HomeClientGridComponent,
+    SocialMediaLinksComponent
   ],
   imports: [
     BrowserModule,
