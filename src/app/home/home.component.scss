@@ -1,0 +1,39 @@
+#intro-hero {
+  h2 {
+    font-weight: 100;
+    font-size: 3.3em;
+  }
+}
+
+.brands-grid {
+  display: flex;
+  padding-top: 1.5em;
+  padding-bottom: .5rem;
+  img {
+    display: block;
+    width: auto;
+    max-height: 100px;
+    padding-bottom: 1em;
+    margin: 0 auto;
+    filter: grayscale(100%);
+    transition: -webkit-filter 500ms linear;
+    &:hover {
+      filter: grayscale(0%);
+      transition: -webkit-filter 500ms linear;
+    }
+  }
+}
+
+.brand-item {
+  margin-bottom: 1.5rem;
+}
+
+.typed-cursor {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  to {
+    opacity: .0;
+  }
+}
