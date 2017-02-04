@@ -13,7 +13,6 @@ import { HeaderComponent } from './header/header.component';
 import { WorkComponent } from './work/work.component';
 import { AboutComponent } from './about/about.component';
 import { ResumeComponent } from './resume/resume.component';
-import { ContactComponent } from './contact/contact.component';
 import { ProjectGridComponent as HomeProjectGridComponent } from './home/project-grid/project-grid.component';
 import { ClientGridComponent as HomeClientGridComponent } from './home/client-grid/client-grid.component';
 import { SocialMediaLinksComponent } from './social-media-links/social-media-links.component';
@@ -28,7 +27,6 @@ import { SocialMediaLinksComponent } from './social-media-links/social-media-lin
     WorkComponent,
     AboutComponent,
     ResumeComponent,
-    ContactComponent,
     WorkComponent,
     HomeProjectGridComponent,
     HomeClientGridComponent,
