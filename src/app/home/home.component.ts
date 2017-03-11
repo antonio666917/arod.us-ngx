@@ -7,11 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-
-  }
-
+  random_profile_picture: number = Math.floor(Math.random() * (Math.floor(6) - Math.ceil(2))) + Math.ceil(2);
+  constructor() {}
+  ngOnInit() {}
 }
