@@ -27,8 +27,8 @@
         "../node_modules/foundation-sites/dist/js/foundation.js",
         "../bower_components/typed.js/js/typed.js"
       ],
+      "environmentSource": "environments/environment.ts",
       "environments": {
-        "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
       }
